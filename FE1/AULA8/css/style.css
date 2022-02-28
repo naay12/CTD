@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #131313;
+}
+
+h1 {
+    color: white;
+    font-family: Roboto;
+    font-style: steelblue;
+}
+
+h2 {
+    color: steelblue;
+}
+
+.media-picture {
+    background-image: url( https://leninetudo.com/wp-content/uploads/2021/08/Por-Lugares-Incriveis-2020-Dublado.jpg);
+    height: 1000px;
+    width: 800px;
+    background-size: cover;
+    background-position: unset;
+    padding: 0;
+    margin: 2;
+}
+
+.review-score {
+    font-style: white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: Roboto;
+}
+
+a {
+    color: yellow;
+}
