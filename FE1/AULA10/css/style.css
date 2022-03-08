@@ -1,0 +1,94 @@
+.desconto {
+    background-color: #1cd1b0;
+    width: 100%;
+    height: 30px;
+}
+
+.super_heróis {
+    background-color: #00669f;
+    width: 100%;
+    height: 100px;
+    -webkit-box-shadow: 4px 4px 12px #000000;
+-moz-box-shadow: 4px 4px 12px #000000;
+box-shadow: 4px 4px 12px #000000;
+}
+
+.mae {
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.897);
+    display: block;
+}
+
+* {
+    margin: 0%;
+}
+
+.teste{
+    display: flex;
+}
+
+.cards {
+    height: 500px;
+    width: 30%;
+    background-color: rgb(240, 255, 27);
+    position:relative;
+    left: 30%;
+    bottom: -150px;
+    margin:1%;
+    border:solid;
+    display:flex;
+}
+
+.card {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(27, 255, 76);
+    position: relative;
+    left:30%;
+    margin:10%;
+
+}
+
+.card {
+    height: 10px;
+    width: 5%;
+    background-color: rgb(164, 27, 255);
+    position: relative;
+    
+}
+
+.card2 {
+
+    height: 500px;
+    width: 30%;
+    background-color: rgb(240, 255, 27);
+    position:relative;
+    left: 30%;
+    bottom: -150px;
+    margin:1%;
+    border:solid;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+.rodape{
+   height: 30px;
+   width: 100%;
+    background-color: #008d9fec;
+    
+}
+
+.rodape p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

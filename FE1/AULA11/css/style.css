@@ -1,0 +1,3 @@
+
+ .cards { display: flex; justify-content: center; }
+ .card { width: 30%; height: 300px; background-color: rgba(0, 0, 255, 0.493); margin: 1px; } 
