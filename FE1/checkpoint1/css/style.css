@@ -1,0 +1,397 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+}
+header{
+    min-width: 425px;
+    max-width: 1280px;
+    display:block;
+    min-height: 150px;
+    margin:0px;
+}
+main{
+    background-color:#000000;
+    min-width: 425px;
+    max-width: 1280px;
+    display: flex;
+    margin: auto;
+}
+header img{
+    width: 100%;
+}
+.con_pai{
+    width: 100%;
+    height: 20%;
+    padding:12px;
+    background-color: rgba(143, 155, 154, 0.336);
+        overflow: hidden;
+        box-sizing:border-box;
+    position: absolute;
+    border: #000000 solid;
+}
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 40px;
+    top: 25px;
+    
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 36px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-position: center;
+    border: black solid;
+}
+.home{
+    position: relative;
+width: 100px;
+height: 52px;
+left: 889px;
+top: 0px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 36px;
+}
+.curiosidades{
+    position: absolute;
+width: 147px;
+height: 52px;
+left: 999px;
+top: 25px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 36px;
+}
+.video{
+    position: absolute;
+width: 100px;
+height: 52px;
+left: 1150px;
+top: 25px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 36px;
+}
+.img{
+    position: relative;
+width: 1110px;
+height: 532px;
+left: 100px;
+right: 100px;
+top: 213px;
+background-attachment: scroll;
+align-items: center;
+border: solid 9px;
+background: #9B9B9B;
+}
+.cards{
+    position: relative;
+    background-color: azure;
+    padding: 0%;
+    margin: auto;
+    display: flex; 
+    justify-content: center;
+}
+.card1{
+    position: absolute;
+width: 335px;
+height: 634px;
+left: 123px;
+top: 922px;
+align-items: center;
+flex-direction: column;
+background: #C4C4C4;
+border-radius: 31px;
+}
+.card2{
+    position: absolute;
+width: 335px;
+height: 634px;
+left: 494px;
+top: 922px;
+align-items: center;
+flex-direction: column;
+background: #C4C4C4;
+border-radius: 31px;
+}
+.card3{
+    position: absolute;
+width: 335px;
+height: 634px;
+left: 865px;
+top: 922px;
+
+background: #C4C4C4;
+border-radius: 31px;
+}
+.seção h3{
+    position: absolute;
+width: 380px;
+height: 42px;
+left: 123px;
+top: 843px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+}
+.video2{
+    position: absolute;
+width: 1077px;
+height: 534px;
+left: 123px;
+top: 1675px;
+
+background: #C4C4C4;
+border-radius: 31px;
+}
+.section2 h3{
+    position: absolute;
+width: 92px;
+height: 42px;
+left: 123px;
+top: 1596px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+
+}
+.card4{
+    position: absolute;
+width: 1310px;
+height: 114px;
+left: 0px;
+top: 2442px;
+
+background: #C4C4C4;
+border: #000000 solid;
+}
+.img img{
+    position: absolute;
+    width: 1092px;
+height: 514px;
+align-items: stretch;
+background-position: center;
+}
+.topo{
+    height: 200px;
+    width: 335px;
+    border-radius: 31px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url(../img/moldura.jpg);
+    bottom: 285px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    background-position: center;
+}
+.descrição{
+    height: 439px;
+    width: 335px;
+    border-radius: 31px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-size:contain;
+    background-position: center;
+    background-color: antiquewhite;
+    border:solid 3px black;
+    position: absolute;
+    top: 197px;
+    left: 0px;
+}
+.descrição p{
+    width: 323px;
+    height: 10px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+.txt h3{
+    position: absolute;
+    width: 92px;
+    height: 42px;
+    left: 105px;
+    top: 76px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+    
+}
+.topo2{
+    height: 200px;
+    width: 335px;
+    border-radius: 31px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url(../img/moldura.jpg);
+    bottom: 285px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    background-position: center;
+}
+.topo2 h3{
+    position: absolute;
+    width: 92px;
+    height: 42px;
+    left: 120px;
+    top: 76px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+    
+}
+.descrição2{
+    height: 439px;
+    width: 335px;
+    border-radius: 31px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-size:contain;
+    background-position: center;
+    background-color: antiquewhite;
+    border:solid 3px black;
+    position: absolute;
+    top:  197px;
+    left: 0px;
+}
+.descrição2 p{
+    width: 323px;
+    height: 10px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+.topo3{
+    height: 200px;
+    width: 335px;
+    border-radius: 31px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url(../img/moldura.jpg);
+    bottom: 285px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    background-position: center;
+}
+.topo3 h3{
+    position: absolute;
+    width: 92px;
+    height: 42px;
+    left: 70px;
+    top: 76px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #000000;
+    
+}
+.descrição3{
+    height: 439px;
+    width: 335px;
+    border-radius: 31px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-size:contain;
+    background-position: center;
+    background-color: antiquewhite;
+    border:solid 3px black;
+    position: absolute;
+    top:  197px;
+    left: 0px;
+}
+.home h2{
+    position: absolute;
+width: 100px;
+height: 28px;
+left: 17px;
+top: 12px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+color: #000000;
+}
+.curiosidades h2{
+    position: absolute;
+width: 141px;
+height: 28px;
+left: 10px;
+top: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+.video h2{
+    position: absolute;
+width: 62px;
+height: 28px;
+left: 18px;
+top: 10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
