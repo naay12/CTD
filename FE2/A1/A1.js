@@ -10,7 +10,7 @@ for(let i=0;i<array.length;i++){
 console.log(result);
 
 /*exemplo do curso*/
-let n=[1,,2,4,8];
+let n=[1,2,4,8];
 let soma=n.reduce((i,n)=>i+=n);
 console.log(soma);
 
