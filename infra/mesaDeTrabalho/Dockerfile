@@ -1,0 +1,3 @@
+FROM nginx
+
+COPY ./CHECKPOINT-I-FRONT-END-II-PARTTIMEII-2022 /usr/share/nginx/html

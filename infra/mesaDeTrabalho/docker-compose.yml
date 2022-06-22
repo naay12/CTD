@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  webserver:
+    build:  .
+    container_name: webservice
+    ports:
+      - "80:80"
