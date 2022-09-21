@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on linux)" generated="20220920 23:42:48.384" rpa="false" schemaversion="3">
+<suite id="s1" name="Aula" source="/home/natali/Documentos/GitHub/CTD/testing/aula.robot">
+<test id="s1-t1" name="Realizar compra na Loja" line="8">
+<status status="FAIL" starttime="20220920 23:42:48.424" endtime="20220920 23:42:48.425">Test contains no keywords.</status>
+</test>
+<test id="s1-t2" name=" Abrir o site da Loja" line="9">
+<status status="FAIL" starttime="20220920 23:42:48.426" endtime="20220920 23:42:48.426">Test contains no keywords.</status>
+</test>
+<test id="s1-t3" name=" Fazer login" line="10">
+<status status="FAIL" starttime="20220920 23:42:48.427" endtime="20220920 23:42:48.428">Test contains no keywords.</status>
+</test>
+<status status="FAIL" starttime="20220920 23:42:48.387" endtime="20220920 23:42:48.429"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Aula">Aula</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220920 23:42:48.380" level="ERROR">Error in file '/home/natali/Documentos/GitHub/CTD/testing/aula.robot' on line 3: Non-existing setting 'Library SeleniumLibrary'.</msg>
+<msg timestamp="20220920 23:42:48.381" level="ERROR">Error in file '/home/natali/Documentos/GitHub/CTD/testing/aula.robot' on line 4: Non-existing setting 'Resource aula.Resource'.</msg>
+</errors>
+</robot>
